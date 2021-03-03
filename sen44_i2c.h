@@ -228,8 +228,8 @@ int16_t sen44_get_serial_number(unsigned char* serial_number,
                                 uint8_t serial_number_size);
 
 /**
- * sen44_get_version() - Gets the version information for the hardware, firmware
- * and SHDLC protocol.
+ * sen44_get_version() - Gets the version information for the hardware and
+ * firmware.
  *
  * @param firmware_major Firmware major version number.
  *
